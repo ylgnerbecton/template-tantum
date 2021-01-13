@@ -1,0 +1,1769 @@
+@charset "UTF-8";
+/* Skin-specific styles
+----------------------- */
+.sc_push_small_negative, .sc_push_y_small_negative {
+  margin-top: -3.8em !important;
+}
+
+/* Buttons */
+form button:not(.components-button),
+input[type=button],
+input[type=reset],
+input[type=submit],
+.theme_button,
+.post_item .more-link,
+.gallery_preview_show .post_readmore,
+.wp-block-button__link,
+#buddypress .comment-reply-link,
+#buddypress .generic-button a,
+#buddypress a.button,
+#buddypress button,
+#buddypress input[type=button],
+#buddypress input[type=reset],
+#buddypress input[type=submit],
+#buddypress ul.button-nav li a,
+#buddypress div.activity-meta a,
+a.bp-title-button,
+body #booked-profile-page input[type=submit],
+body #booked-profile-page button,
+body .booked-list-view input[type=submit],
+body .booked-list-view button,
+body table.booked-calendar input[type=submit],
+body table.booked-calendar button,
+body .booked-modal input[type=submit],
+body .booked-modal button,
+.mc4wp-form .mc4wp-form-fields input[type=submit],
+.sc_button,
+.sc_form button,
+.tourmaster-tour-search-wrap input.tourmaster-tour-search-submit[type=submit],
+#tribe-bar-form .tribe-bar-submit input[type=submit],
+#tribe-bar-form.tribe-bar-mini .tribe-bar-submit input[type=submit],
+#tribe-bar-form button,
+#tribe-bar-form a,
+#tribe-bar-form input,
+#tribe-bar-form .tribe-bar-views-toggle,
+#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a,
+.tribe-bar-mini #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a,
+#tribe-events .tribe-events-button,
+.tribe-events-button,
+.tribe-events-cal-links a,
+.tribe-events-sub-nav li a,
+.tribe-events-read-more,
+#tribe-events-footer ~ a.tribe-events-ical.tribe-events-button,
+.edd_download_purchase_form .button,
+#edd-purchase-button,
+.edd-submit.button,
+.widget_edd_cart_widget .edd_checkout a,
+.woocommerce .button, .woocommerce-page .button,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce input[type=button], .woocommerce-page input[type=button],
+.woocommerce input[type=submit], .woocommerce-page input[type=submit],
+.woocommerce .woocommerce-message .button,
+.woocommerce ul.products li.product .button,
+.woocommerce div.product form.cart .button,
+.woocommerce #review_form #respond p.form-submit input[type=submit],
+.woocommerce-page #review_form #respond p.form-submit input[type=submit],
+.woocommerce table.my_account_orders .order-actions .button,
+.woocommerce table.cart td.actions .button,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button,
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit[disabled]:disabled,
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button[disabled]:disabled,
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button[disabled]:disabled,
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button[disabled]:disabled,
+.yith-woocompare-widget a.clear-all {
+  -webkit-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  padding: 1.35em 3.2em;
+}
+
+input[type=submit],
+input[type=reset],
+input[type=button] {
+  border: 2px solid #ddd;
+  border-width: 2px !important;
+  padding: 1.2em 3.05em;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=url],
+input[type=tel],
+input[type=password],
+input[type=search],
+select,
+.select_container,
+textarea {
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+}
+
+.sc_button_icon_left .sc_button_icon {
+  margin-right: 0.3em;
+}
+
+.sc_button.sc_button_default.sc_button_with_icon {
+  padding: 14px 31px;
+}
+.sc_button.sc_button_default.sc_button_with_icon .sc_button_title {
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: 600;
+}
+.sc_button.sc_button_default.sc_button_with_icon .sc_button_subtitle {
+  font-size: 11px;
+  line-height: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sc_button_text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sc_table table tr:first-child th, .sc_table table tr:first-child td {
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 1em;
+  padding: 1.2em 0.6em;
+}
+
+.post_item .more-link {
+  padding: 0.657em 1.6em;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+}
+
+/* Field error */
+.trx_addons_message_box_success,
+div.wpcf7-mail-sent-ok {
+  border-color: #66cc66 !important;
+  border-width: 2px;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #D14F30;
+  font-weight: 600;
+}
+
+.trx_addons_field_error, .wpcf7-not-valid {
+  border-color: #D14F30 !important;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+  border-color: #D14F30 !important;
+  color: #535353;
+  background: #fff;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+}
+
+.trx_addons_message_box_success, div.wpcf7-mail-sent-ok {
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+}
+
+form .error_field {
+  border-color: #D14F30 !important;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+}
+
+form .trx_addons_message_box {
+  -webkit-border-radius: 24px;
+  -ms-border-radius: 24px;
+  border-radius: 24px;
+  -webkit-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.trx_addons_message_box_error {
+  border: 2px solid #D14F30;
+  color: #535353;
+  background: #fff;
+}
+
+.trx_addons_message_box {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0.8em 1.6em;
+  background-color: #fff;
+  -webkit-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  border-radius: 5px !important;
+}
+
+/* 9. Sidebars
+-------------------------------------------------------------- */
+.sidebar_inner .widget {
+  -webkit-border-radius: 9px;
+  -ms-border-radius: 9px;
+  border-radius: 9px;
+}
+
+/* Widget Search */
+.sidebar_inner .widget_search {
+  padding: 3.9em 4.27em 4.3em;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Widget Items */
+aside .post_item + .post_item {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.widget_area .post_item .post_title, aside .post_item .post_title {
+  margin: 5px 0 0;
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.widget_area .post_item .post_categories, aside .post_item .post_categories {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.7em;
+  padding-right: 3em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.widget_area .post_item .post_info, aside .post_item .post_info {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.widget_recent_posts {
+  overflow: visible;
+  counter-reset: headings 0;
+}
+
+.widget_area .post_item .post_thumb,
+aside .post_item .post_thumb {
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  overflow: visible;
+  position: relative;
+  margin: 0 20px 6px 0;
+}
+
+.widget_area .post_item .post_thumb img,
+aside .post_item .post_thumb img {
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.widget_area .post_item + .post_item, aside .post_item + .post_item {
+  border-top: 2px solid white;
+}
+
+/* Header */
+[data-type^="trx-addons/socials"], [data-type^="trx-addons/button"], [data-type^="trx-addons/layouts-"]:not([data-type^="trx-addons/layouts-blog-item"]):not([data-type^="trx-addons/layouts-container"]):not([data-type^="trx-addons/layouts-featured"]):not([data-type^="trx-addons/layouts-title"]), .wp-block-column > .sc_layouts_item, .sc_layouts_column .sc_layouts_item, .sc_layouts_column .sc_layouts_item + div:not(.sc_layouts_item):not(.vc_row):not(.vc_separator):not(.vc_empty_space):not(.vc_wp_text) {
+  margin-right: 2.2em;
+}
+
+body .sc_layouts_row_type_compact,
+body .sc_layouts_row_type_compact.sc_layouts_row_fixed_on {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+.sc_layouts_title_title > .sc_layouts_title_caption {
+  margin-top: 0;
+  line-height: 1.2em;
+}
+
+.sc_layouts_menu_nav li li.menu-item-has-children > a:after {
+  content: "";
+  font-family: "fontello";
+  display: inline-block;
+  top: 0.15em;
+}
+
+/* Menu */
+.sc_layouts_menu_nav li {
+  text-align: center;
+}
+
+.sc_layouts_menu_nav > li.menu-item-has-children > a:after {
+  display: none;
+}
+
+.sc_layouts_menu_nav > li > a,
+.sc_layouts_menu_nav > li.menu-item-has-children > a {
+  padding: 9px 21px 11px;
+  -webkit-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  background: red;
+  -webkit-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.sc_layouts_menu_nav > li + li {
+  margin-left: 3px;
+}
+
+.sc_layouts_menu_nav > li.menu-item-has-children[class*=icon-] > a,
+.sc_layouts_menu_nav > li[class*=icon-] > a {
+  padding-left: 1.5em;
+}
+
+.sc_layouts_menu_nav > li[class*=icon-]:before {
+  padding: 0.9em 0;
+  left: 0.2em;
+}
+
+.sc_layouts_menu_nav > li > ul {
+  top: 3.8em;
+  left: 0;
+  margin-left: 0;
+}
+.sc_layouts_menu_nav > li > ul li {
+  text-align: left;
+}
+
+.sc_layouts_menu_popup .sc_layouts_menu_nav, .sc_layouts_menu_nav > li ul {
+  width: 9.445em;
+  padding: 15px 0;
+}
+
+.sc_layouts_menu_popup .sc_layouts_menu_nav, .sc_layouts_menu_popup .sc_layouts_menu_nav > li > ul, .sc_layouts_menu_nav > li > ul ul {
+  left: 9.445em;
+  top: -0.9em;
+  margin: 0 0 0 1px;
+}
+
+.sc_layouts_menu_nav > li > ul ul.submenu_left {
+  left: -9.445em;
+  margin: 0 0 0 -1px;
+}
+
+.sc_layouts_menu_nav > li > ul ul.sc_layouts_submenu.submenu_left {
+  left: auto;
+  right: 11em;
+  margin: 0;
+}
+
+.sc_layouts_menu_popup .sc_layouts_menu_nav > li.menu-item-has-children > a, .sc_layouts_menu_nav li li.menu-item-has-children > a,
+.sc_layouts_menu_popup .sc_layouts_menu_nav > li > a, .sc_layouts_menu_nav > li li > a {
+  padding: 3px 22px;
+}
+
+.sc_layouts_menu_popup .sc_layouts_menu_nav, .sc_layouts_menu_nav > li ul {
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  box-shadow: none;
+}
+
+.sc_layouts_menu_nav > li:last-child > ul, .sc_layouts_column_align_right .sc_layouts_menu_nav > li.menu-collapse > ul {
+  left: 50%;
+  right: auto;
+}
+
+.breadcrumbs .breadcrumbs_delimiter:before {
+  content: "-";
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+/* Spacer */
+.elementor-widget-spacer.sc_height_small .elementor-spacer-inner {
+  height: 23px !important;
+}
+
+.elementor-widget-spacer.sc_height_large .elementor-spacer-inner, .elementor-widget-spacer.sc_height_big .elementor-spacer-inner {
+  height: 80px !important;
+}
+
+/* Accent Title */
+.sc_title_accent h5.sc_item_title_tag + .sc_item_descr,
+.sc_title_accent h5.sc_item_title_tag + .sc_item_slider,
+.sc_title_accent h5.sc_item_title_tag + .sc_item_columns,
+.sc_title_accent h5.sc_item_title_tag + .sc_item_content {
+  margin-top: 1.7em;
+}
+
+.sc_title_accent .sc_item_descr p {
+  line-height: 1.45em;
+}
+
+.sc_title_accent .sc_item_descr {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.sc_item_title_style_accent > .sc_item_title_text {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.sc_item_title_style_accent > .sc_item_title_text:after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-left: 25px;
+  margin-top: 1px;
+  flex: auto;
+  min-width: 30px;
+  align-self: center;
+}
+
+.sc_item_title_style_accent.sc_align_right > .sc_item_title_text:after {
+  display: none;
+}
+.sc_item_title_style_accent.sc_align_right > .sc_item_title_text:before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-right: 25px;
+  margin-top: 1px;
+  flex: auto;
+  min-width: 30px;
+  align-self: center;
+}
+
+.sc_item_title_style_accent.sc_align_center > .sc_item_title_text:after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-left: 25px;
+  margin-top: 1px;
+  flex: auto;
+  min-width: 30px;
+  align-self: center;
+}
+.sc_item_title_style_accent.sc_align_center > .sc_item_title_text:before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-right: 25px;
+  margin-top: 1px;
+  flex: auto;
+  min-width: 30px;
+  align-self: center;
+}
+
+.sc_title_accent .sc_button_simple {
+  padding: 0;
+}
+
+.sc_title_accent .sc_button_simple:before, .sc_title_accent .sc_button_simple:after {
+  display: none;
+}
+
+.sc_title_accent .title-wrap-go {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sc_title_accent.right-go .title-wrap-go {
+  flex-direction: row-reverse;
+}
+
+.sc_title_accent .title-wrap-go .sc_item_title {
+  flex: auto;
+}
+
+.sc_title_accent .title-wrap-go .sc_item_button {
+  margin: 0 0 0 25px;
+}
+
+.sc_title_accent .title-wrap-go .sc_item_title.sc_align_right + .sc_item_button {
+  margin: 0 25px 0 0;
+}
+
+/* Socials in footer */
+.footer_wrap .sc_socials_icons_names .socials_wrap {
+  margin: 0;
+  white-space: normal;
+}
+.footer_wrap .sc_socials_icons_names .social_item {
+  display: inline-block;
+  min-width: 180px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px 0;
+  line-height: 16px;
+}
+.footer_wrap .sc_socials_icons_names .social_item + .social_item {
+  border-left: 1px solid #ddd;
+}
+.footer_wrap .sc_socials_icons_names .social_icon {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 22px;
+  line-height: 22px;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  background: transparent !important;
+}
+.footer_wrap .sc_socials_icons_names .social_item .social_name {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  margin: 0 0 0 2px;
+  letter-spacing: 0.3px;
+}
+
+.wp-widget-nav_menu ul.menu, .widget_contacts ul.footer_contact_list {
+  padding-left: 0;
+}
+
+/* Meta */
+.post_meta .post_meta_item:after,
+.post_meta .post_meta_item.post_edit:after,
+.post_meta .vc_inline-link:after {
+  content: "";
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: baseline;
+  margin: 3px 6px 1px 9px;
+  width: 1px;
+  height: 7px;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #95919e;
+  display: inline-block;
+}
+
+.post_meta .post_meta_item.post_categories:after {
+  width: 0;
+  height: 0;
+  border: none;
+}
+
+.post_meta .post_meta_item.post_categories a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  -webkit-border-radius: 25px;
+  -ms-border-radius: 25px;
+  border-radius: 25px;
+  padding: 6px 20px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.post_meta .post_meta_item.post_categories a:last-child {
+  margin-right: 0;
+}
+
+/* Drop Cap */
+.trx_addons_dropcap {
+  font-size: 53px;
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  width: 1.661em;
+  height: 1.661em;
+  line-height: 1.45em;
+  margin: 0.15em 0.4em 0 0;
+}
+.trx_addons_dropcap.trx_addons_dropcap_style_2 {
+  background: transparent !important;
+  font-size: 75px;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: left;
+  width: 80px;
+  height: 70px;
+  margin: -9px 0 0;
+}
+
+/* Contact Form 7 */
+.wpcf7 .elementor-column-gap-extended {
+  margin: 0 -13px;
+}
+.wpcf7 .elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated {
+  padding: 13px;
+}
+.wpcf7 .elementor-column-gap-extended + .text-center {
+  margin-top: 20px;
+}
+.wpcf7 .elementor-column-gap-extended + .text-center + .text-center {
+  margin-top: 20px;
+}
+.wpcf7 .wpcf7-form-control-wrap {
+  width: 100%;
+}
+.wpcf7 .wpcf7-form-control-wrap.your-message {
+  width: 100%;
+}
+.wpcf7 .wpcf7-form-control-wrap.your-message textarea {
+  min-height: 5em;
+  max-height: 13.4em;
+}
+.wpcf7 label {
+  width: 100%;
+}
+.wpcf7 .text-right {
+  text-align: right;
+  position: relative;
+  margin-top: 3px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.wpcf7 .text-left {
+  text-align: left;
+  justify-content: flex-start;
+  align-self: center;
+}
+.wpcf7 .ajax-loader {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: -10px;
+}
+.wpcf7 div.wpcf7-response-output {
+  margin-top: 1em;
+  text-align: center;
+}
+.wpcf7 .trx_addons_field_error, .wpcf7 .wpcf7-not-valid {
+  box-shadow: none;
+}
+.wpcf7 .elementor-col-70 {
+  align-items: center;
+}
+.wpcf7 .wpcf7-list-item-label {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.wpcf7-form-control.wpcf7-acceptance .wpcf7-list-item {
+  margin: 0;
+}
+
+/* Progress Bar */
+.elementor-progress-percentage {
+  padding-right: 0;
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: -27px;
+  font-size: 18px;
+}
+
+.elementor-progress-wrapper {
+  height: 6px;
+  padding: 0;
+  -webkit-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.elementor-progress-bar {
+  height: 6px;
+  -webkit-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.elementor-widget-progress .elementor-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+/* Tabs */
+.elementor-toggle .elementor-tab-title {
+  border-bottom: none;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  -webkit-border-radius: 9px;
+  -ms-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.elementor-toggle-item {
+  background: white;
+  -webkit-border-radius: 9px;
+  -ms-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.elementor-toggle .elementor-tab-content {
+  border-bottom: none;
+  border-top: 2px solid red;
+}
+.elementor-toggle .elementor-tab-content p {
+  margin: 0;
+}
+
+.elementor-toggle .elementor-tab-title .elementor-toggle-icon {
+  width: 1.5835em;
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center !important;
+}
+
+.sc_recent_news .post_item .post_date:before {
+  display: none;
+}
+
+.sc_recent_news_style_news-excerpt .post_item {
+  display: flex;
+  align-items: center;
+  padding: 2.4em 2em;
+  background: white;
+}
+.sc_recent_news_style_news-excerpt .post_item .post_featured {
+  max-width: 125px;
+  min-width: 125px;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+.sc_recent_news_style_news-excerpt .post_item .post_title {
+  margin: -0.25em 0 0;
+  letter-spacing: -0.5px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.sc_recent_news_style_news-excerpt .post_item .post_date {
+  font-size: 14px;
+  line-height: 1.2em;
+  margin-bottom: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+.sc_recent_news_style_news-excerpt .post_item .post_body {
+  display: flex;
+  align-items: center;
+  flex: 1 1 100%;
+}
+.sc_recent_news_style_news-excerpt .post_item + .post_item {
+  margin-top: 0;
+  padding-top: 2.4em;
+}
+.sc_recent_news_style_news-excerpt .post_item .post_footer {
+  margin-top: 0;
+}
+.sc_recent_news_style_news-excerpt .post_item .related_more_link a {
+  line-height: 1.39rem;
+  margin-top: 0;
+}
+
+.sc_layouts_row_type_compact.sc_layouts_row .sc_layouts_item {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.sc_layouts_row_type_compact.sc_layouts_row .sc_button {
+  -webkit-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 1.1em;
+  padding: 14px 21px 14px;
+}
+
+/* Greed */
+.minimal-light .esg-filterbutton, .minimal-light .esg-navigationbutton, .minimal-light .esg-sortbutton, .minimal-light .esg-cartbutton a {
+  font-size: 16px !important;
+  line-height: 1.1em !important;
+  font-weight: 600 !important;
+  padding: 23px 50px !important;
+  -webkit-border-radius: 35px !important;
+  -ms-border-radius: 35px !important;
+  border-radius: 35px !important;
+  margin-top: 50px;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.minimal-light .esg-filterbutton:hover, .minimal-light .esg-navigationbutton:hover, .minimal-light .esg-sortbutton:hover, .minimal-light .esg-cartbutton a:hover {
+  box-shadow: none !important;
+}
+
+/* Icon */
+.sc_icons_modern.sc_icons_size_small .sc_icons_icon:before, .sc_icons_modern.sc_icons_size_small .sc_icons_icon > span:before {
+  font-size: 2.8rem;
+}
+
+.sc_icons_modern .sc_icons_item_title {
+  font-size: 20px;
+  line-height: 1.1em;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
+}
+
+.sc_icons_modern.sc_icons_size_small .sc_icons_item_details {
+  min-height: 4em;
+  padding-left: 4.75em;
+}
+
+.sc_icons_modern .sc_icons_icon, .sc_icons_modern .sc_icons_image {
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 400;
+}
+
+.sc_icons_modern .sc_icons_item_description {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sc_icons_modern .sc_icons_item_title + .sc_icons_item_description {
+  margin-top: 0.2em;
+}
+
+.sc_icons_modern .sc_icons_item + .sc_icons_item {
+  padding-top: 21px;
+  margin-top: 25px;
+  border-top: 1px solid red;
+}
+.sc_icons_modern .sc_icons_item + .sc_icons_item .sc_icons_icon {
+  top: calc(50% + 9px);
+}
+
+/* Rant styles
+----------------------------------------------------------------- */
+.single-car_rental_item.single .post_content_single {
+  padding-top: 50px;
+}
+.single-car_rental_item.single .post_meta_single {
+  display: none;
+}
+.single-car_rental_item.single .car-rental-single-booking {
+  float: none;
+  clear: both;
+  padding: 0;
+}
+.single-car_rental_item.single .car-rental-single-item .item-images {
+  width: 30%;
+}
+
+.single-car_rental_page.single .car-rental-new-booking .booking-item .booking-item-body .narrow-dropdown {
+  margin-left: 35px;
+}
+
+div .car-rental-slider .responsive-items-slider button.car-rental-slider-prev,
+div .car-rental-slider .responsive-items-slider button.car-rental-slider-next {
+  top: calc(50% - 16px);
+}
+
+.car-rental-new-booking form .booking-item .booking-item-header {
+  display: none;
+}
+
+div .car-rental-search-step1 div.styled-select-dropdown {
+  box-shadow: none;
+}
+
+div .car-rental-search-step1 .booking-item .booking-item-body input[name=pickup_date], div .car-rental-search-step1 .booking-item .booking-item-body input[name=return_date],
+div .car-rental-single-booking .booking-item .booking-item-body input[name=pickup_date], div .car-rental-single-booking .booking-item .booking-item-body input[name=return_date] {
+  box-shadow: none;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+  height: 65px;
+  font-size: 14px;
+}
+
+div .car-rental-search-step1 .booking-item .booking-item-body div.styled-select-dropdown select, div .car-rental-single-booking .booking-item .booking-item-body div.styled-select-dropdown select {
+  font-style: normal;
+  height: 61px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+div .car-rental-search-step1 .booking-item .booking-item-body div.styled-select-dropdown .select_container:after, div .car-rental-single-booking .booking-item .booking-item-body div.styled-select-dropdown .select_container:after {
+  right: 1.9em;
+}
+
+div .car-rental-single-booking .booking-item .booking-item-body div.styled-select-dropdown select {
+  height: 65px;
+}
+
+div .car-rental-search-step1 div.styled-select-dropdown, div .car-rental-single-booking .booking-item .booking-item-body div.styled-select-dropdown {
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+}
+
+div .car-rental-search-step1 img.date-selector-image {
+  margin-top: 19px;
+}
+
+div .car-rental-search-step1 .booking-item .booking-item-body div.narrow-dropdown {
+  width: 195px;
+}
+
+div .car-rental-search-step1 .booking-item .booking-item-body input[name=pickup_date], div .car-rental-search-step1 .booking-item .booking-item-body input[name=return_date],
+div .car-rental-single-booking .booking-item .booking-item-body input[name=pickup_date], div .car-rental-single-booking .booking-item .booking-item-body input[name=return_date] {
+  width: 200px;
+  padding-left: 30px;
+  font-style: normal;
+}
+div .car-rental-search-step1 .booking-item .booking-item-body input[name=pickup_date]:after, div .car-rental-search-step1 .booking-item .booking-item-body input[name=return_date]:after,
+div .car-rental-single-booking .booking-item .booking-item-body input[name=pickup_date]:after, div .car-rental-single-booking .booking-item .booking-item-body input[name=return_date]:after {
+  content: "";
+  font-family: "fontello";
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+div .car-rental-search-step1 .booking-item {
+  max-width: 410px;
+}
+
+div .car-rental-search-step1 .booking-item .booking-item-body div.wide-dropdown {
+  width: 410px;
+}
+
+div .car-rental-search-step1 .booking-item .booking-item-body input[type=submit],
+div .car-rental-single-booking .booking-item .booking-item-body input[type=submit] {
+  height: 65px;
+  padding: 10px 50px;
+  font-size: 16px;
+  text-transform: capitalize;
+  width: 100%;
+  margin-left: 0;
+}
+
+div .car-rental-search-step1 .booking-item .booking-item-body div.top-padded-submit {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div .car-rental-search-step1 div.styled-select-dropdown {
+  background: none;
+}
+
+.inline-div + .inline-div {
+  margin-left: -59px;
+}
+
+div .car-rental-search-step1 .booking-item .booking-item-body div.narrow-dropdown {
+  margin-left: 41px;
+}
+
+div .car-rental-slider .responsive-items-slider div.car-rental-item-details {
+  padding: 5px 40px 30px;
+  text-align: center;
+  width: 100%;
+}
+
+div .car-rental-single-booking {
+  background-image: none;
+}
+
+div .car-rental-single-booking .booking-item, div .car-rental-single-booking .booking-item .booking-item-body div.wide-dropdown {
+  width: 410px;
+}
+
+div .car-rental-single-booking img.date-selector-image {
+  margin-top: 19px;
+}
+
+div .car-rental-single-booking .booking-item .booking-item-body div.narrow-dropdown {
+  width: 175px;
+  margin-left: 49px;
+}
+
+div .car-rental-single-item .item-features .item-features-label {
+  margin-top: 30px;
+}
+
+div .car-rental-single-item .item-description {
+  width: 66%;
+}
+
+div ul.car-rental-item-features-list {
+  width: 100%;
+}
+div ul.car-rental-item-features-list li {
+  width: 33.3%;
+}
+
+div .car-rental-single-item .item-images .item-small-image {
+  width: calc(33.3% - 4px);
+}
+div .car-rental-single-item .item-images .item-small-image img {
+  width: 100%;
+}
+div .car-rental-single-item .item-images .item-small-image + .item-small-image {
+  padding-left: 5px;
+}
+
+div .car-rental-single-booking .booking-item .booking-item-body div.top-padded-submit {
+  margin-top: 0;
+  width: 100%;
+}
+
+div .car-rental-search-result button[name=car_rental_do_search0],
+div .car-rental-search-result input[name=car_rental_do_search0],
+div .car-rental-search-result button[name=car_rental_do_search],
+div .car-rental-search-result input[name=car_rental_do_search],
+div .car-rental-search-result button[name=car_rental_do_search2],
+div .car-rental-search-result input[name=car_rental_do_search2],
+div .car-rental-search-result button[name=car_rental_do_search3],
+div .car-rental-search-result input[name=car_rental_do_search3],
+div .car-rental-search-result button[name=car_rental_cancel_booking],
+div .car-rental-search-result input[name=car_rental_cancel_booking],
+div .car-rental-options button[name=car_rental_do_search0],
+div .car-rental-options input[name=car_rental_do_search0],
+div .car-rental-options button[name=car_rental_do_search],
+div .car-rental-options input[name=car_rental_do_search],
+div .car-rental-options button[name=car_rental_do_search2],
+div .car-rental-options input[name=car_rental_do_search2],
+div .car-rental-options button[name=car_rental_do_search3],
+div .car-rental-options input[name=car_rental_do_search3],
+div .car-rental-options button[name=car_rental_cancel_booking],
+div .car-rental-options input[name=car_rental_cancel_booking],
+div .car-rental-booking-details button[name=customer_lookup],
+div .car-rental-booking-details input[name=customer_lookup],
+div .car-rental-booking-details button[name=car_rental_do_search4],
+div .car-rental-booking-details input[name=car_rental_do_search4] {
+  height: 63px;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+div .customer-buttons button {
+  margin-left: 0;
+}
+
+div .car-rental-search-result h2.car-rental-page-title, div .car-rental-options h2.car-rental-page-title, div .car-rental-booking-details h2.car-rental-page-title,
+div .search-label {
+  text-transform: capitalize;
+  margin-top: 30px;
+  font-size: 36px;
+  line-height: 1.2em;
+}
+
+div #search-results-title h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.clear {
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+}
+
+.car-rental-booking-details table tbody td, .car-rental-booking-details table tbody th {
+  padding: 15px !important;
+}
+
+div .car-rental-booking-details table {
+  font-size: 16px;
+}
+
+div .car-rental-booking-details .customer-data-input input[type=text],
+div .car-rental-booking-details .email-search input[type=text],
+div .car-rental-booking-details .customer-data-input select,
+div .car-rental-booking-details .birth-search select {
+  box-shadow: none;
+  height: 65px;
+  font-style: normal;
+}
+
+.car-rental-booking-details .customer-data-input textarea {
+  box-shadow: none;
+  font-style: normal;
+}
+
+div .car-rental-booking-details .customer-data-input .select_container {
+  height: 65px;
+}
+
+.customer-data-input.customer-birthday-select .select_container select {
+  float: none;
+}
+.customer-data-input.customer-birthday-select .select_container + .select_container {
+  margin-top: 5px;
+}
+
+div .car-rental-booking-details .customer-data-label {
+  padding-top: 22px;
+}
+
+div .car-rental-options .selected-item .col2, div .car-rental-options .list-headers .col2 {
+  width: 22%;
+}
+
+div .item-quantity .select_container {
+  height: 28px;
+}
+div .item-quantity .select_container select {
+  height: 28px;
+  padding: 0 15px 2px !important;
+  margin-top: 0;
+  border: 1px solid red;
+}
+
+div .car-rental-slider .responsive-items-slider div.car-rental-item-details .car-rental-item-type {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 17px;
+}
+
+div .car-rental-slider .responsive-items-slider div.car-rental-item-price {
+  padding-top: 14px;
+}
+
+div .car-rental-slider .responsive-items-slider div.car-rental-item-details {
+  margin: 0 auto;
+}
+
+div .car-rental-slider .responsive-items-slider div.car-rental-item-image {
+  margin: 0 auto;
+}
+
+div .car-rental-slider .responsive-items-slider div.car-rental-item-title {
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.slick-initialized .slick-slide {
+  padding: 0 15px;
+}
+
+.car-rental-body {
+  position: relative;
+  -webkit-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+  padding: 30px 0;
+}
+.car-rental-body .car-rental-item-price-wrap {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: red;
+  align-items: center;
+}
+.car-rental-body .car-rental-item-price-wrap .car-rental-item-price {
+  font-size: 25px !important;
+  line-height: 1;
+  font-weight: 600;
+  background: transparent !important;
+}
+.car-rental-body .car-rental-item-price-wrap .car-rental-item-prefix {
+  font-size: 12px !important;
+  line-height: 1;
+  font-weight: 600 !important;
+}
+.car-rental-body .car-rental-item-link.sc_button {
+  padding: 11px 24px !important;
+}
+.car-rental-body .car-rental-item-info {
+  border-top: 2px solid red;
+  padding: 15px 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.car-rental-body .car-rental-item-info .car-rental-item-info-label {
+  width: 100%;
+  padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.car-rental-body .car-rental-item-info .car-rental-item-info-persons, .car-rental-body .car-rental-item-info .car-rental-item-info-mileage, .car-rental-body .car-rental-item-info .car-rental-item-info-doors {
+  width: 55px;
+}
+.car-rental-body .car-rental-item-info .car-rental-item-info-persons, .car-rental-body .car-rental-item-info .car-rental-item-info-mileage, .car-rental-body .car-rental-item-info .car-rental-item-info-doors {
+  position: relative;
+}
+.car-rental-body .car-rental-item-info .car-rental-item-info-persons:before, .car-rental-body .car-rental-item-info .car-rental-item-info-mileage:before, .car-rental-body .car-rental-item-info .car-rental-item-info-doors:before {
+  content: "";
+  font-family: "fontello";
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid red;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 400;
+}
+.car-rental-body .car-rental-item-info .car-rental-item-info-persons span, .car-rental-body .car-rental-item-info .car-rental-item-info-mileage span, .car-rental-body .car-rental-item-info .car-rental-item-info-doors span {
+  width: 22px;
+  height: 22px;
+  line-height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  position: absolute;
+  top: 22px;
+  right: -3px;
+  display: inline-block;
+}
+.car-rental-body .car-rental-item-info .car-rental-item-info-mileage:before {
+  content: "";
+}
+.car-rental-body .car-rental-item-info .car-rental-item-info-doors:before {
+  content: "";
+}
+
+div .car-rental-slider .responsive-items-slider div.car-rental-item-title {
+  height: auto;
+}
+
+div .car-rental-slider .responsive-items-slider div.car-rental-item-prefix {
+  padding-top: 0;
+  text-transform: lowercase;
+}
+
+div .car-rental-booking-failure .booking-failure-content .back-button {
+  height: auto;
+  -webkit-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  border: none;
+  padding: 1em 2.5em;
+  font-size: 16px;
+}
+
+#search-results-title h2 {
+  font-size: 36px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+div .booking-data-group, div .car-rental-search-result .list-headers, div .car-rental-search-result div.item-type-label {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+div .car-rental-search-result .list-headers {
+  padding: 18px 0;
+  border-bottom: none;
+}
+
+div .booking-data-group {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 18px 0;
+}
+
+div .car-rental-search-result .list-headers .col3, div .car-rental-search-result .list-headers .col1,
+div .car-rental-search-result .list-headers .col4, div .car-rental-search-result .list-headers .col5 {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+div .booking-data-row {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 31.73%;
+  margin-right: 2.4%;
+}
+
+div .car-rental-search-result div.item-type-label {
+  text-align: left;
+  padding: 18px 0 18px 2%;
+}
+
+div .car-rental-items-list .car-rental-list-item, div .car-rental-list-item {
+  border-top: 0;
+}
+
+div .car-rental-search-result .car-rental-list-item, div .car-rental-items-list .car-rental-list-item {
+  padding: 70px 0 0;
+}
+
+.car-rental-list-item + .item-type-label {
+  margin-top: 70px;
+}
+
+div .car-rental-search-result .car-rental-list-item .item-name {
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.car-rental-search-result .car-rental-list-item .col2 > a {
+  margin-bottom: 23px;
+  display: inline-block;
+}
+
+div .car-rental-search-result .car-rental-list-item .col3 .price-per-period {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+div .car-rental-search-result {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+div .booking-data-group-items {
+  font-size: 16px;
+  border: none;
+  padding: 7%;
+  width: auto;
+}
+
+div .booking-data-group-item {
+  padding: 3px;
+}
+
+.no-items {
+  padding-left: 2%;
+}
+
+.car-rental-customer-form label.error {
+  display: none !important;
+}
+
+.customer-data-input label.error {
+  vertical-align: middle;
+  padding-left: 0.5em;
+  position: relative;
+  top: 0;
+  display: inline;
+}
+
+div .car-rental-booking-details .form-row-wide .birth-search select {
+  font-style: normal;
+}
+
+div .car-rental-booking-details .ajax-loader {
+  padding-top: 19px;
+}
+
+.customer-data-input label.error:before {
+  display: none;
+}
+
+.terms-and-conditions.error + label.error {
+  display: inline-block !important;
+  color: black;
+  font-style: normal;
+  top: auto;
+  height: 20px !important;
+}
+
+div .car-rental-options .selected-item .col5 {
+  width: 8%;
+  padding-right: 0;
+}
+
+.booking-data-icon .fa-map-marker:before {
+  content: "";
+  font-family: "fontello";
+}
+
+.booking-data-icon .fa-map-signs:before {
+  content: "";
+  font-family: "fontello";
+}
+
+.booking-data-icon .fa-cutlery:before {
+  content: "";
+  font-family: "fontello";
+}
+
+.booking-data-text br {
+  display: none;
+}
+
+.car-rental-search-result .clear {
+  line-height: 0;
+}
+
+div .car-rental-single-booking .booking-item:last-child {
+  width: 340px;
+}
+
+.car-rental-list-single-item .description-item i {
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 0;
+  padding-right: 5px;
+}
+.car-rental-list-single-item .description-item i.fa {
+  margin-right: 0;
+}
+
+div .fa-car:before {
+  content: "";
+  font-family: "fontello";
+}
+
+div .fa-cogs:before {
+  content: "";
+  font-family: "fontello";
+}
+
+div .fa-users:before {
+  content: "";
+  font-family: "fontello";
+}
+
+div .fa-tachometer:before {
+  content: "";
+  font-family: "fontello";
+}
+
+.trx_addons_scroll_to_top {
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* Car Rental 5+*/
+/* First Form */
+.car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-header {
+  display: none;
+}
+.car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-body div.wide-dropdown {
+  width: 100%;
+}
+.car-rental-wrapper.fleet-management-search-step1 .search-field {
+  max-width: 410px;
+}
+.car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-body input[name=pickup_date], .car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-body input[name=return_date] {
+  width: 200px;
+  padding-left: 30px;
+  font-style: normal;
+  box-shadow: none;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+  height: 65px;
+  font-size: 14px;
+}
+.car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-body div.narrow-dropdown {
+  width: 195px;
+  margin-left: 41px;
+}
+.car-rental-wrapper.fleet-management-search-step1 .booking-item .booking-item-body div.styled-select-dropdown .select_container:after {
+  right: 1.9em;
+}
+.car-rental-wrapper.fleet-management-search-step1 .booking-item .booking-item-body div.styled-select-dropdown select, .car-rental-wrapper.fleet-management-search-step1 .booking-item .booking-item-body div.styled-select-dropdown select {
+  font-style: normal;
+  height: 61px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-body div.styled-select-dropdown select,
+.car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-body div.narrow-dropdown select {
+  font-style: normal;
+  height: 61px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-body input[type=submit] {
+  height: 65px;
+  padding: 10px 50px;
+  font-size: 16px;
+  text-transform: capitalize;
+  width: 100%;
+  margin: 0;
+}
+.car-rental-wrapper.fleet-management-search-step1 .search-field .search-field-body div.top-padded-submit {
+  display: block;
+  margin: 0;
+}
+
+/* Next Forms */
+.fleet-management-wrapper.car-rental-wrapper .item-models-list-header {
+  border-bottom: none;
+}
+.fleet-management-wrapper.car-rental-wrapper .item-models-list-header [class*=item-], .fleet-management-wrapper.car-rental-wrapper .extras-list-header [class*=item-] {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 1rem 0 1rem 0.8rem;
+}
+.fleet-management-wrapper.car-rental-wrapper div.class-label {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 18px 0 18px 2%;
+  text-align: left;
+  letter-spacing: 0;
+}
+.fleet-management-wrapper.fleet-management-item-model-search-results .item-model-wrap, .fleet-management-wrapper.fleet-management-item-models-list .item-model-wrap {
+  border-top: none;
+}
+.fleet-management-wrapper.car-rental-wrapper .item-model-wrap + .class-label {
+  margin-top: 3.8rem;
+}
+.fleet-management-wrapper.car-rental-wrapper button.confirm-button, .fleet-management-wrapper.car-rental-wrapper .buttons button,
+.fleet-management-wrapper .item-model-wrap .item-select button {
+  height: 63px;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.fleet-management-wrapper.fleet-management-search-summary-table .customer-data-input input[type=text] {
+  height: auto;
+  padding: 1.4em 1.8em;
+  line-height: 1;
+  border: 2px solid #ddd;
+}
+.fleet-management-wrapper.fleet-management-search-summary-table .customer-data-input input.disabled {
+  pointer-events: none;
+}
+.fleet-management-wrapper.fleet-management-search-summary-table .customer-data-input [name=terms_and_conditions] {
+  display: inline-block;
+}
+.fleet-management-wrapper.car-rental-order-received .info-content {
+  padding-top: 10px;
+}
+.fleet-management-wrapper .customer-data-input select,
+.fleet-management-wrapper .customer-select select {
+  font-style: normal;
+  height: 61px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.fleet-management-wrapper .customer-data-input.customer-birthday-select .select_container {
+  width: 30%;
+  margin-bottom: 0.4rem;
+}
+.fleet-management-wrapper .customer-data-input .select_container {
+  float: left;
+}
+.fleet-management-wrapper .customer-data-input .select_container select {
+  clear: both;
+}
+.fleet-management-wrapper .customer-data-input.customer-birthday-select .select_container + .select_container {
+  margin-top: 0;
+  margin-left: 1.6em;
+}
+.fleet-management-wrapper textarea.customer-comments {
+  min-height: 3.7rem;
+  max-height: 3.7rem;
+  padding: 13px 15px !important;
+  margin-bottom: 0.1rem;
+}
+
+.car-rental-wrapper.fleet-management-search-options-list .item-models-list-header [class*=item-], .car-rental-wrapper.fleet-management-search-options-list .extras-list-header [class*=extra-],
+.car-rental-wrapper .location-summary .summary-caption {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 1rem 0 1rem 0.8rem;
+}
+.car-rental-wrapper.fleet-management-search-options-list [class=no-item-models], .car-rental-wrapper.fleet-management-search-options-list .no-extras {
+  padding: 1rem;
+}
+.car-rental-wrapper .location-summary .location-group {
+  border: none;
+  padding: 7%;
+  width: auto;
+}
+.car-rental-wrapper .back-button[type=submit] {
+  height: 63px;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fleet-management-search-failure .failure-content .buttons {
+  margin-bottom: 1rem;
+}
+
+.item-model-details a {
+  display: inline-block;
+  margin-bottom: 1.111rem;
+}
+
+.fleet-management-search-summary-table table td {
+  padding: 0.5rem 0.8rem !important;
+}
+
+/* Car single page */
+.single.sidebar_hide .fleet-management-item-model-details .item-model-images {
+  width: inherit;
+}
+.single .car-rental-wrapper.fleet-management-item-model-input-search-form {
+  background-image: none;
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+.single .fleet-management-item-model-input-search-form div.styled-select-dropdown,
+.single .fleet-management-item-model-input-search-form .search-field .search-field-body div.styled-select-dropdown {
+  background: none;
+}
+.single .fleet-management-item-model-input-search-form div.styled-select-dropdown .select_container:after {
+  right: 1.9em;
+}
+.single .fleet-management-item-model-input-search-form div.styled-select-dropdown select, .single .fleet-management-item-model-input-search-form div.styled-select-dropdown select {
+  font-style: normal;
+  height: 61px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.single .fleet-management-item-model-input-search-form .search-field .search-field-body div.styled-select-dropdown select,
+.single .fleet-management-item-model-input-search-form .search-field .search-field-body div.narrow-dropdown select {
+  font-style: normal;
+  height: 61px;
+  padding-left: 30px;
+  border-radius: 35px;
+  font-size: 14px;
+}
+.single .fleet-management-item-model-input-search-form .search-field .search-field-body input[name=pickup_date], .single .fleet-management-item-model-input-search-form .search-field .search-field-body input[name=return_date] {
+  width: 200px;
+  padding-left: 30px;
+  font-style: normal;
+  box-shadow: none;
+  -webkit-border-radius: 35px;
+  -ms-border-radius: 35px;
+  border-radius: 35px;
+  height: 65px;
+  font-size: 14px;
+}
+.single .fleet-management-item-model-input-search-form img.date-selector-image {
+  margin-top: 18px;
+}
+.single .fleet-management-item-model-input-search-form .search-field .search-field-body input[type=submit] {
+  height: 65px;
+  padding: 10px 50px;
+  font-size: 16px;
+  text-transform: capitalize;
+  width: 100%;
+  margin: 0;
+}
+.single .fleet-management-item-model-details .features-section {
+  margin-top: 1.5rem;
+}
+.single .fleet-management-item-model-details .item-model-images .item-model-small-image {
+  width: calc(33.3% - 4px);
+  padding-right: 6px;
+}
+.single .fleet-management-item-model-details .item-model-images .item-model-small-image:last-child {
+  padding-right: 0;
+}
+
+.single.sidebar_show .fleet-management-item-model-input-search-form .search-field .search-field-body input[name=pickup_date], .single.sidebar_show .fleet-management-item-model-input-search-form .search-field .search-field-body input[name=return_date] {
+  width: 185px;
+  padding-left: 30px;
+}
+.single.sidebar_show .fleet-management-item-model-input-search-form .search-field .search-field-body div.narrow-dropdown {
+  width: 141px;
+  margin-left: 35px;
+}
+.single.sidebar_show .fleet-management-item-model-input-search-form .search-field:last-child .search-field-body {
+  text-align: center;
+}
+.single.sidebar_show .fleet-management-item-model-details .item-model-description {
+  width: 59%;
+}
+.single.sidebar_show div .car-rental-single-booking .booking-item .booking-item-body div.narrow-dropdown {
+  width: 175px;
+  margin-left: 49px;
+}
+
+.single.sidebar_hide .fleet-management-item-model-input-search-form .search-field .search-field-body .wide-dropdown {
+  width: 100%;
+}
+.single.sidebar_hide .fleet-management-item-model-input-search-form .search-field .search-field-body div.narrow-dropdown {
+  width: 185px;
+  margin-left: 49px;
+}
+.single.sidebar_hide .fleet-management-item-model-input-search-form form .search-field {
+  width: 410px;
+}
+.single.sidebar_hide .fleet-management-item-model-input-search-form form .search-field:last-child {
+  width: 340px;
+}
+.single.sidebar_hide .fleet-management-item-model-input-search-form .search-field .search-field-body div.top-padded-submit {
+  display: block;
+  margin-top: 0;
+}
+.single.sidebar_hide .fleet-management-item-model-input-search-form .search-field .search-field-body input[name=pickup_date], .single.sidebar_hide .fleet-management-item-model-input-search-form .search-field .search-field-body input[name=return_date],
+.single.sidebar_hide .fleet-management-item-model-input-search-form .search-field-body div.styled-select-dropdown select {
+  height: 65px;
+}
+
+/* Square button fix */
+.wp-block-button.is-style-squared > a {
+  border-radius: 0;
+}
+
+/*# sourceMappingURL=skin.css.map */
